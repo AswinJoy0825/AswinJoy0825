@@ -41,11 +41,24 @@ public class CardTrick {
         key.setSuit(suit);
             //c.setValue(insert call to random number generator here)
             //c.setSuit(Card.SUITS[insert call to random number between 0-3 here])
-        }
-
+        
+    // hard-coded answer for part 6 and 7
+        Card key = new Card();
+        key.setValue(11);
+        key.setSuit("Hearts");
+        boolean found = false;
+        System.out.println("Searching for: " + key);
+        for (int i = 0; i < magicHand.length; i++) {
+        found = true;
+        break;
+      }
+     }
+        if (!found)
+             System.out.println("Card is not found in magic hand.");
         //insert code to ask the user for Card value and suit, create their card
         // and search magicHand here
         //Then report the result here
     }
+}
 
 
