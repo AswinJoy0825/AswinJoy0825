@@ -36,16 +36,9 @@ public class CardTrick {
         int val = game.nextInt();
         System.out.print("Enter suit: ");
         String suit = game.next();
-        //Card key = new Card();
-        //key.setValue(val);
-        //key.setSuit(suit);
-            //c.setValue(insert call to random number generator here)
-            //c.setSuit(Card.SUITS[insert call to random number between 0-3 here])
         
-    // hard-coded answer for part 6 and 7
-        /*Card key = new Card();*/
-      //  key.setValue(11);
-      //14  key.setSuit("Hearts");
+        
+    
      int found = 1;
 
         System.out.println("Searching for: " + val + " of " + suit );
@@ -59,24 +52,16 @@ public class CardTrick {
         }
         
         if(found==-1){
-            System.out.print("Not Found");
+            System.out.print("Better Luck next time \n");
         }
         else{
-             System.out.print("Found");
+             System.out.print("You win \n");
         }
      }
         
 
    
-           /* if (!found){
-        
-             System.out.println("Card is not found in magic hand.");
-        //insert code to ask the user for Card value and suit, create their card
-        // and search magicHand here
-        //Then report the result here
-    
-        
-    }*/
+          
 }
 
 
